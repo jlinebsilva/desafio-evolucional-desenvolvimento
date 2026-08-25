@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+
+  --color-primary: #2563EB;
+  --color-primary-10: #00174B;
+  --color-primary-30: #003EA8;
+
+  --color-secondary: #64748B;
+  --color-secondary-10: #0B1C30;
+  --color-secondary-30: #38485D;
+
+  --color-tertiary: #BC4800;
+
+  --color-neutral: #F8FAFC;
+  --color-neutral-10: #191C1E;
+  --color-neutral-30: #444749;
+  --color-neutral-50: #747779;
+  --color-neutral-70: #A9ABAD;
+  --color-neutral-90: #E0E3E5;
+
+
+  background: var(--color-neutral);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  color: var(--color-neutral-10);
+}
+
+h3 {
+  font-size: medium;
+  font-weight: 400;
+  color: var(--color-neutral-30);
+}
+
+
+button {
+  background: none;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
