@@ -1,0 +1,18 @@
+.notFound {
+    display: flex;
+    height: 100svh;
+    width: 100svw;
+    background: var(--color-neutral-90);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.errorCode {
+    font-size: 6rem;
+}
+
+.errorText {
+    font-size: 2rem;
+}
