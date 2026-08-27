@@ -1,0 +1,6 @@
+.tableHeader {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-neutral-90);
+    background: var(--color-secondary);
+}
